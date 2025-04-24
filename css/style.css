@@ -13,6 +13,10 @@
     --sombra: 0 4px 20px rgba(0,0,0,0.1);
 }
 
+
+/* Pré-carregar imagens */
+<link rel="preload" href="images/bg-mobile.png" as="image" media="(max-width: 768px)">
+
 body {
     background: url('../images/bg-palm.png') no-repeat center center fixed;
     background-size: cover;
@@ -397,11 +401,9 @@ body {
         background: 
             linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
             url('../images/bg-mobile.png') no-repeat top center fixed;
-        background-size: auto;
+        background-size: contain;
     }
 }
 
-/* Pré-carregar imagens */
-<link rel="preload" href="images/bg-mobile.png" as="image" media="(max-width: 768px)">
 
 
