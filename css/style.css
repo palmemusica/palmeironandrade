@@ -358,3 +358,36 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+/* Cards de serviços - DESKTOP */
+@media (min-width: 1024px) {
+    .servicos-grid {
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 15px !important;
+    }
+
+    .servico-card {
+        min-height: 180px !important;
+        padding: 25px !important;
+        margin: 0 5px !important;
+    }
+
+    .servico-card h3 {
+        font-size: 1.4rem !important;
+        margin-bottom: 12px !important;
+    }
+}
+
+/* Ajuste fino para telas grandes */
+@media (min-width: 1280px) {
+    .servicos-grid {
+        gap: 25px !important;
+    }
+}
+.servicos-grid {
+    justify-content: center;
+    align-items: stretch;
+}
+
+.servico-card {
+    flex: 1 0 auto;
+}
