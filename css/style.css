@@ -14,9 +14,6 @@
 }
 
 
-/* Pré-carregar imagens */
-<link rel="preload" href="images/bg-mobile.png" as="image" media="(max-width: 768px)">
-
 body {
     background: url('../images/bg-palm.png') no-repeat center center fixed;
     background-size: cover;
