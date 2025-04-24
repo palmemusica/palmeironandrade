@@ -391,3 +391,17 @@ body {
 .servico-card {
     flex: 1 0 auto;
 }
+/* Mobile override */
+@media (max-width: 768px) {
+    body {
+        background: 
+            linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+            url('../images/bg-mobile.png') no-repeat top center fixed;
+        background-size: contain;
+    }
+}
+
+/* Pré-carregar imagens */
+<link rel="preload" href="images/bg-mobile.png" as="image" media="(max-width: 768px)">
+
+
