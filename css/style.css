@@ -397,7 +397,7 @@ body {
         background: 
             linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
             url('../images/bg-mobile.png') no-repeat top center fixed;
-        background-size: contain;
+        background-size: 0cqmax;
     }
 }
 
